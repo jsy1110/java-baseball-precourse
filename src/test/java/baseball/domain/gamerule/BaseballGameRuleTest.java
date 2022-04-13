@@ -28,6 +28,6 @@ class BaseballGameRuleTest {
     @Test
     void 룰_체크_FAIL() {
         assertThat(baseballGameRule.result("123", "456")).isNotEqualTo("3스트라이크");
-        assertThat(baseballGameRule.result("987", "612")).isEqualTo("낫싱");
+        assertThat(baseballGameRule.result("987", "612")).isNotEqualTo("1스트라이크");
     }
 }
