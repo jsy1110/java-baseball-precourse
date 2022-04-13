@@ -9,8 +9,8 @@ public class Application {
 
         GameView game = appConfig.gameView();
 
-        while ("1".equals(game.playGame())) {
-
+        while (true) {
+            if ("2".equals(game.playGame())) break;
         }
     }
 }

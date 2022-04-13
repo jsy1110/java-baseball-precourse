@@ -26,7 +26,6 @@ public class GameView {
 
     public String playGame() throws IllegalArgumentException {
         String opponentNumber = opponent.getInput();
-        System.out.println("opponentNumber = " + opponentNumber);
         String result = "";
 
         do {
