@@ -4,13 +4,8 @@ import camp.nextstep.edu.missionutils.Randoms;
 
 public class ComputerOpponent implements Opponent {
 
-
     @Override
     public String getInput() {
-        return makeNumber();
-    }
-
-    public String makeNumber() {
         String numberString = "";
 
         for (int i = 0; i < 3; i++) {
